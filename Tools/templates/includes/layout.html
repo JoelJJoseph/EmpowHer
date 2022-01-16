@@ -45,44 +45,39 @@
 
 <body>
 
-  <nav class="navbar navbar-expand navbar-dark bg-dark"
-    style="background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);">
-    <div class="container-fluid">
-      <a class="navbar-brand" style="color: rgb(5, 5, 5);" href="http://localhost:8000/">GuideHER</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+  <nav class="navbar navbar-expand-sm navbar-light bg-success" style="background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);">
+        <div class="container-fluid ">
+            <a class="navbar-brand " href="http://localhost:8000/">GuideHER</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/ideas" style="color: rgb(255, 255, 255);">Idea Generator</a>
+                    </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="/ideas" style="color: rgb(255, 255, 255);">Idea Generator</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="/code-explain" style="color: rgb(255, 255, 255);">Code Explainer</a>
-          </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/code-explain" style="color: rgb(255, 255, 255);">Code Explainer</a>
+                    </li>
 
 
 
-          <li class="nav-item">
-            <a class="nav-link" href="/bugfix" style="color: rgb(255, 255, 255);">Bugfix</a>
-          </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/bugfix" style="color: rgb(255, 255, 255);">Bugfix</a>
+                    </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="/startup-name" style="color: rgb(255, 255, 255);">Startup Name Generator</a>
-          </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/startup-name" style="color: rgb(255, 255, 255);">Startup Name Generator</a>
+                    </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="/business-pitch" style="color: rgb(255, 255, 255);">Business Ideas Pitch</a>
-          </li>
-
-
-        </ul>
-      </div>
-    </div>
-  </nav>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/business-pitch" style="color: rgb(255, 255, 255);">Business Ideas Pitch</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 
   {% block body %}
