@@ -18,9 +18,11 @@ OpenAI
 Html
 Css
 Js
+
 ## Challenges we ran into
 The ideation was a challenge in itself. We also faced challenges in using OpenAI to create all the resources. 
-##Accomplishments that we're proud of 🏅🏆
+
+## Accomplishments that we're proud of 🏅🏆
 The implementation of the entire project helped us realize the importance of collaboration and the dynamics of working in a team In every Hackathon, proper time management plays a crucial role that can become a determining factor for the overall progress; we understood the instrumentality of following the code of conduct and treating fellow developers with respect while learning and improving through their feedback. We are proud of completing the project in time.
 
 ## What we learned
