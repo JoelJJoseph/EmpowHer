@@ -3,7 +3,7 @@ Throughout history, women have had to sacrifice themselves for the next generati
 
 The project consists of various parts including -  
 <hr />
-![1](https://user-images.githubusercontent.com/72274851/149674216-5aa69ac7-5a90-4435-9478-3af343873cff.jpg)
+![1](https://cdn.discordapp.com/attachments/904084295231082527/932355675198201947/149674216-5aa69ac7-5a90-4435-9478-3af343873cff.png)
 
 1. The Career Guider - This asks you a few questions based on your interests and hobbies and helps you choose the correct career path for you. It also provides you with resources to help you more about the suggested career fields.  
   
