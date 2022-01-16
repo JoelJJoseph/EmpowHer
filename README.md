@@ -1,1 +1,1 @@
-# GuideHER
+# EmpowHER
