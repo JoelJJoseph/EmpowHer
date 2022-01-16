@@ -43,5 +43,7 @@ The implementation of the entire project helped us realize the importance of col
 
 ## What we learned
 ✅ More about OpenAI
+
 ✅ The use cases on Open AI
+
 ✅ Flask
