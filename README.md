@@ -3,7 +3,6 @@ Throughout history, women have had to sacrifice themselves for the next generati
 
 The project consists of various parts including -  
 <hr />
-![1](https://cdn.discordapp.com/attachments/904084295231082527/932355675198201947/149674216-5aa69ac7-5a90-4435-9478-3af343873cff.png)
 
 1. The Career Guider - This asks you a few questions based on your interests and hobbies and helps you choose the correct career path for you. It also provides you with resources to help you more about the suggested career fields.  
   
@@ -41,10 +40,10 @@ We built it using -
 **5. CSS**  
 **6. JavaScript**  
 
-##Challenges we ran into
+## Challenges we ran into
 The ideation was a challenge in itself. We also faced challenges in using OpenAI to create all the resources. We had used OpenAI with streamlit in the past but using it with Flask was challenging for us.
 
-##Accomplishments that we're proud of 🏅🏆
+## Accomplishments that we're proud of 🏅🏆
 The implementation of the entire project helped us realize the importance of collaboration and the dynamics of working in a team In every Hackathon, proper time management plays a crucial role that can become a determining factor for the overall progress; we understood the instrumentality of following the code of conduct and treating fellow developers with respect while learning and improving through their feedback. We are proud of completing the project in time.
 
 ## What we learned
