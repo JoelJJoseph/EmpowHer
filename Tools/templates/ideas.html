@@ -1,0 +1,36 @@
+<body style="background-color: rgb(191, 242, 255);">
+{% extends 'includes/layout.html' %}
+
+
+
+
+{% block body %}
+<main class="container">
+  <div class="bg-light p-5 rounded mt-5" style="background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);">
+    <h1>Generate Startup Ideas</h1>
+
+    <form class="" action="/ideas" method="post">
+
+      <div class="mb-lg-4">
+        <label class="form-label">Enter the type of Startup you want  Generate Ideas for</label>
+        <input type="text" class="form-control" name="Idea" placeholder="eg.Computers">
+      </div>
+
+      <button type="submit" class="btn btn-info btn-lg">Generate Ideas</button>
+
+    </form>
+  </div>
+
+
+  <div class="p-3 rounded">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="text-primary">{{prompt}}</h3>
+        <h1  style="font-family: 'Aclonica', sans-serif;  background-image: linear-gradient(to bottom, #560064, #59007c, #560096, #4700b3, #0900d3); -webkit-text-fill-color: transparent; -webkit-background-clip: text;">{{string1}}</h1>
+
+      </div>
+    </div>
+  </div>
+</main>
+{% endblock %}
+</body>

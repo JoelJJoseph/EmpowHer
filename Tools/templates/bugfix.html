@@ -1,0 +1,35 @@
+<body style="background-color: rgb(191, 242, 255);">
+{% extends 'includes/layout.html' %}
+
+
+{% block body %}
+<main class="container">
+    <div class="bg-light p-5 rounded mt-5" style="background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);">
+    <h1>Fix your Code🐞</h1>
+
+    <h5>Enter your code here to fix it</h5>
+
+    <form class="" action="/bugfix" method="post">
+
+      <div class="mb-3">
+        <textarea type="text"  rows="25" class="form-control" name="codefix" placeholder="Enter your Code Here"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-info btn-lg">Fix</button>
+
+    </form>
+  </div>
+
+
+
+      <div class="col-xl-15 mb-15">
+        <div class="card">
+         <div class="card-body" style="background-image: radial-gradient(circle, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);">
+            <h2 class="card-title" style="color: rgb(89, 0, 255);">Fixed Code🐞</h2>
+            <p class="card-text" style="white-space: pre-wrap; color: rgb(0, 0, 0);">{{openAIAnswer}}</p>
+          </div>
+        </div>
+      </div>
+</main>
+{% endblock %}
+</body>
